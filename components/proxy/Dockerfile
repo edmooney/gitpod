@@ -3,7 +3,7 @@
 # See License-AGPL.txt in the project root for license information.
 
 # https://docs.docker.com/samples/library/nginx/
-FROM nginx:1.14.1
+FROM nginx:1.19.9
 
 # Purge default configuration
 RUN rm -Rf /etc/nginx/conf.d/
