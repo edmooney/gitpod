@@ -25,7 +25,7 @@
     "@theia/scm": "next",
     "@theia/terminal": "next",
     "@theia/userstorage": "next",
-    "@theia/vsx-registry": "next",
+    "@theia/vsx-registry": "1.15.0",
     "@theia/workspace": "next",
     "@gitpod/gitpod-protocol": "0.1.5",
     "bitbucket": "^2.1.0",
