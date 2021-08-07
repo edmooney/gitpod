@@ -2,7 +2,7 @@
 # Licensed under the GNU Affero General Public License (AGPL).
 # See License-AGPL.txt in the project root for license information.
 
-FROM alpine:latest
+FROM alpine:3
 
 RUN apk add --no-cache git bash ca-certificates
 COPY components-image-builder--app/image-builder /app/
