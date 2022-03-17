@@ -2,7 +2,7 @@ FROM golang:1.13-alpine AS debugger
 RUN apk add --no-cache git
 RUN go get -u github.com/go-delve/delve/cmd/dlv
 
-FROM alpine:latest
+FROM alpine:3.15
 RUN apk add --no-cache git bash openssh-client lz4 e2fsprogs
 
 # Add gitpod user for operations (e.g. checkout because of the post-checkout hook!)
