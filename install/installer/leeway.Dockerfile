@@ -2,7 +2,7 @@
 # Licensed under the GNU Affero General Public License (AGPL).
 # See License-AGPL.txt in the project root for license information.
 
-FROM alpine AS prep
+FROM alpine:3.15 AS prep
 ARG VERSION
 ARG IMAGE_PREFIX
 
@@ -25,7 +25,7 @@ RUN echo "chart_location = \"../helm/gitpod\"" >> installer.auto.tfvars && \
     cp installer.auto.tfvars terraform/aws && \
     rm installer.auto.tfvars
 
-FROM alpine
+FROM alpine:3.15
 ENV GITPOD_INSTALLER_IN_DOCKER="true"
 ENV KUBECONFIG="/workspace/kubectl"
 RUN apk add --no-cache aws-cli curl git bash ncurses && \
