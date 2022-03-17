@@ -2,7 +2,7 @@ FROM golang:1.13-alpine AS debugger
 RUN apk add --no-cache git
 RUN go get -u github.com/go-delve/delve/cmd/dlv
 
-FROM alpine:latest
+FROM alpine:3.15
 RUN apk add ca-certificates
 COPY --from=debugger /go/bin/dlv /usr/bin
 COPY ws-manager-node /app/ws-manager-node
