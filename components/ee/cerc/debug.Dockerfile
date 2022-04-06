@@ -4,7 +4,7 @@ COPY . .
 RUN go build
 
 
-FROM alpine:latest
+FROM alpine:3.15.4
 
 COPY examples/selftest.json selftest.json
 COPY --from=builder /workspace/cerc /
