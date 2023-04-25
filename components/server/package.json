@@ -59,7 +59,7 @@
     "js-yaml": "^3.10.0",
     "json-stream": "^1.0.0",
     "longjohn": "^0.2.12",
-    "minio": "^7.0.12",
+    "minio": "^7.0.17",
     "moment": "^2.20.1",
     "node-fetch": "^2.6.0",
     "opentracing": "^0.14.4",
