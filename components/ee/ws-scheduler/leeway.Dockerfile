@@ -2,7 +2,7 @@
 # Licensed under the Gitpod Enterprise Source Code License,
 # See License.enterprise.txt in the project root folder.
 
-FROM alpine:latest
+FROM alpine:3.18.3
 RUN apk add ca-certificates
 COPY components-ee-ws-scheduler--app/ws-scheduler /app/ws-scheduler
 ENTRYPOINT [ "/app/ws-scheduler" ]
