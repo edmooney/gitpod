@@ -2,7 +2,7 @@
 # Licensed under the GNU Affero General Public License (AGPL).
 # See License-AGPL.txt in the project root for license information.
 
-FROM alpine
+FROM alpine:3.18.3
 RUN apk add ca-certificates && \
     adduser -S -D -H -h /app -u 31001 appuser
 COPY components-service-waiter--app/service-waiter /app/service-waiter
