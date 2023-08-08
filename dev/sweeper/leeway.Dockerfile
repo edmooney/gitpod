@@ -2,7 +2,7 @@
 # Licensed under the GNU Affero General Public License (AGPL).
 # See License-AGPL.txt in the project root for license information.
 
-FROM alpine:latest
+FROM alpine:3.18.3
 
 RUN apk add --no-cache ca-certificates curl git
 RUN curl -L https://github.com/csweichel/werft/releases/download/v0.0.4rc/werft-client-linux-amd64.tar.gz | tar xz && \
