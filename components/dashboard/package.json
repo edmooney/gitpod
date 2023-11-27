@@ -6,7 +6,7 @@
   "dependencies": {
     "@gitpod/gitpod-protocol": "0.1.5",
     "@material-ui/core": "latest",
-    "@material-ui/icons": "latest",
+    "@material-ui/icons": "4.0.0",
     "countries-list": "2.4.2",
     "js-cookie": "^2.2.1",
     "lodash.debounce": "^4.0.8",
