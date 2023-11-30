@@ -11,7 +11,7 @@
     "lib"
   ],
   "dependencies": {
-    "grpc": "^1.21.1",
+    "grpc": "^1.24.8",
     "google-protobuf": "^3.8.0-rc.1",
     "inversify": "^5.0.1",
     "opentracing": "^0.14.4",
