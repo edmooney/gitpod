@@ -11,11 +11,11 @@
     "lib"
   ],
   "dependencies": {
-    "grpc": "^1.21.1",
+    "grpc": "^1.24.11",
     "google-protobuf": "^3.8.0-rc.1",
     "inversify": "^5.0.1",
     "opentracing": "^0.14.4",
-    "node-pre-gyp": "^0.13.0",
+    "node-pre-gyp": "^0.17.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
