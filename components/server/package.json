@@ -73,7 +73,7 @@
     "rasha": "^1.2.5",
     "reflect-metadata": "^0.1.10",
     "request": "^2.87.0",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.6",
     "swot-js": "^1.0.3",
     "uuid": "^3.1.0",
     "vscode-ws-jsonrpc": "^0.2.0",
