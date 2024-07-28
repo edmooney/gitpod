@@ -28,7 +28,7 @@
     "/dist"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^2.5.0",
+    "@google-cloud/storage": "^5.19.0",
     "@octokit/rest": "16.35.0",
     "@gitpod/content-service": "0.1.5",
     "@gitpod/gitpod-db": "0.1.5",
