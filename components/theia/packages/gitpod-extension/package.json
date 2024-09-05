@@ -11,7 +11,7 @@
     "styles/*"
   ],
   "dependencies": {
-    "@octokit/rest": "~16.43.1",
+    "@octokit/rest": "~17.0.0",
     "@theia/core": "next",
     "@theia/filesystem": "next",
     "@theia/git": "next",
@@ -38,13 +38,13 @@
     "json-query": "^2.2.2",
     "lodash.throttle": "^4.1.1",
     "moment": "^2.20.1",
-    "node-ssh": "^5.1.2",
+    "node-ssh": "^6.0.0",
     "octicons": "^7.1.0",
     "ovsx": "0.1.0-next.9b4e999",
     "prom-client": "^10.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "requestretry": "^4.0.0",
+    "requestretry": "^4.1.1",
     "yaml": "^1.5.1"
   },
   "devDependencies": {
