@@ -28,8 +28,8 @@
     "/dist"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^2.5.0",
-    "@octokit/rest": "16.35.0",
+    "@google-cloud/storage": "^5.19.0",
+    "@octokit/rest": "17.0.0",
     "@gitpod/content-service": "0.1.5",
     "@gitpod/gitpod-db": "0.1.5",
     "@gitpod/gitpod-messagebus": "0.1.5",
@@ -59,7 +59,7 @@
     "js-yaml": "^3.10.0",
     "json-stream": "^1.0.0",
     "longjohn": "^0.2.12",
-    "minio": "^7.0.12",
+    "minio": "^7.1.1",
     "moment": "^2.20.1",
     "node-fetch": "^2.6.0",
     "opentracing": "^0.14.4",
@@ -68,7 +68,7 @@
     "passport-dummy": "^0.0.1",
     "passport-gitlab2": "5.0.0",
     "passport-http": "^0.3.0",
-    "probot": "^7.4.0",
+    "probot": "^13.0.0",
     "prom-client": "^10.2.0",
     "rasha": "^1.2.5",
     "reflect-metadata": "^0.1.10",
