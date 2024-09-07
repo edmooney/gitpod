@@ -2,7 +2,7 @@
 # Licensed under the GNU Affero General Public License (AGPL).
 # See License-AGPL.txt in the project root for license information.
 
-FROM alpine:latest
+FROM alpine:3.20.3
 RUN apk add ca-certificates
 COPY components-ws-manager--app/ws-manager /app/ws-manager
 ENTRYPOINT [ "/app/ws-manager" ]
