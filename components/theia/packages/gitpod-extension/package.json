@@ -19,13 +19,13 @@
     "@theia/mini-browser": "next",
     "@theia/monaco": "next",
     "@theia/navigator": "next",
-    "@theia/plugin-ext": "next",
+    "@theia/plugin-ext": "1.23.0",
     "@theia/preferences": "next",
     "@theia/preview": "next",
     "@theia/scm": "next",
     "@theia/terminal": "next",
     "@theia/userstorage": "next",
-    "@theia/vsx-registry": "next",
+    "@theia/vsx-registry": "1.23.0",
     "@theia/workspace": "next",
     "@gitpod/gitpod-protocol": "0.1.5",
     "bitbucket": "^2.1.0",
@@ -45,7 +45,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "requestretry": "^4.0.0",
-    "yaml": "^1.5.1"
+    "yaml": "^1.10.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",
