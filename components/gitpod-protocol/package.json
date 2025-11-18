@@ -33,7 +33,7 @@
         "ajv": "^6.5.4",
         "inversify": "^5.0.1",
         "jaeger-client": "3.17.2",
-        "js-yaml": "^3.10.0",
+        "js-yaml": "^4.1.1",
         "opentracing": "^0.14.4",
         "prom-client": "^10.2.0",
         "reconnecting-websocket": "^4.2.0",
