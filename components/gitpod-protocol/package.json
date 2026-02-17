@@ -30,7 +30,7 @@
         "watch": "leeway exec --package .:lib --transitive-dependencies --filter-type yarn --components --parallel -- tsc -w --preserveWatchOutput"
     },
     "dependencies": {
-        "ajv": "^6.5.4",
+        "ajv": "^8.18.0",
         "inversify": "^5.0.1",
         "jaeger-client": "3.17.2",
         "js-yaml": "^3.10.0",
